@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qaZltkFw/0T/CaVaAqtR+3bz8BZegcu/atHskGeGk1HzF4e8ufNjPfvhgvsjrPFc05g5IWYPumDwkLfTLwyC1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\JobProcessor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marvin\\.nuget\\packages\\awssdk.core\\3.3.106.7\\awssdk.core.3.3.106.7.nupkg.sha512",
+    "C:\\Users\\Marvin\\.nuget\\packages\\awssdk.sqs\\3.3.102.94\\awssdk.sqs.3.3.102.94.nupkg.sha512"
+  ],
+  "logs": []
+}

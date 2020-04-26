@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\JobProcessor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\JobProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\JobProcessor.csproj",
+        "projectName": "JobProcessor",
+        "projectPath": "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\JobProcessor.csproj",
+        "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marvin\\Documents\\Restaurant\\aws-services\\JobProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://172.31.241.93/nuget": {},
+          "http://nuget.dev.eom.aptos.io/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.3.102.94, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
