@@ -1,4 +1,5 @@
 using aws_services.client;
+using aws_services.client.Services;
 using aws_services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,7 +26,8 @@ namespace aws_services
             services.AddSingleton<IFileStorage, FileStorage>();
             services.AddSingleton<IJobService, JobService>();
             services.AddSingleton<IJobServicePubSub, JobServicePubSub>();
-
+            services.AddSingleton<IUserService, UserService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

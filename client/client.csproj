@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.105.35" />
     <PackageReference Include="AWSSDK.S3" Version="3.3.110.52" />
     <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.3.101.153" />
     <PackageReference Include="AWSSDK.SQS" Version="3.3.102.93" />
