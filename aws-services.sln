@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizeUser", "AuthorizeU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApproveRequestActivityWorker", "ApproveRequestActivityWorker\ApproveRequestActivityWorker.csproj", "{19155252-FEAB-4355-9A12-4447EAA059F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LambdaFunctions", "LambdaFunctions", "{E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApproveRequestAuto", "ApproveRequestAuto\ApproveRequestAuto.csproj", "{7D5D543F-99DF-44EA-BFD7-A2751FE95390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,19 @@ Global
 		{19155252-FEAB-4355-9A12-4447EAA059F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19155252-FEAB-4355-9A12-4447EAA059F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19155252-FEAB-4355-9A12-4447EAA059F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5D543F-99DF-44EA-BFD7-A2751FE95390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5D543F-99DF-44EA-BFD7-A2751FE95390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5D543F-99DF-44EA-BFD7-A2751FE95390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5D543F-99DF-44EA-BFD7-A2751FE95390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B435145-A593-40B1-85DE-D3287A7B13C5} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
+		{47AF756F-965F-4BF0-9D5D-FADB5BC9D0C2} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
+		{19155252-FEAB-4355-9A12-4447EAA059F6} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
+		{7D5D543F-99DF-44EA-BFD7-A2751FE95390} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6C60966-6D9C-4FEE-9757-62F9BDFD3B4F}
