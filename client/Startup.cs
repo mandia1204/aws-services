@@ -28,7 +28,9 @@ namespace aws_services
             services.AddSingleton<IJobServicePubSub, JobServicePubSub>();
             services.AddSingleton<IUserService, UserService>();
             services.AddSingleton<ICognitoService, CognitoService>();
+            services.AddSingleton<ICrypto, Crypto>();
 
+            services.AddDataProtection();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
