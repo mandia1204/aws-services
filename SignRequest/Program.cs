@@ -56,8 +56,8 @@ namespace SignRequest
             var amzdate = $"{currDate:yyyyMMdd}T{currDate:HHmmss}Z";
             var requestParams = new RequestParams
             {
-                secret = "D/xf1mx+suNaU+y9ZYrTuX2j/b/aN53hdsoIks3Z",
-                accessKeyId = "AKIAU64D5FG2J5P5MZ47",
+                secret = "",
+                accessKeyId = "",
                 region = "us-east-1",
                 service = "iam",
                 action = "ListUsers",
