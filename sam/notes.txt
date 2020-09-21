@@ -1,0 +1,4 @@
+sudo vmhgfs-fuse .host:/token-validator /c/home/matt/token-validator -o allow_other
+
+from testing folder:
+sam local invoke -e events/tokenAuthEvent.json -v /home/matt/ --debug-port 5858 --debug TokenValidatorFunction

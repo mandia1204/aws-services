@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessS3BucketChange", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessS3BucketChangeCloudWatch", "ProcessS3BucketChangeCloudWatch\ProcessS3BucketChangeCloudWatch.csproj", "{644A92F4-63E3-480E-AA91-70CBBAD91B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignRequest", "SignRequest\SignRequest.csproj", "{7B0ED0E6-B90B-4326-B0AC-B0C1FDF41B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignRequest", "SignRequest\SignRequest.csproj", "{7B0ED0E6-B90B-4326-B0AC-B0C1FDF41B60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCommitEvent", "CodeCommitEvent\CodeCommitEvent.csproj", "{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{7B0ED0E6-B90B-4326-B0AC-B0C1FDF41B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B0ED0E6-B90B-4326-B0AC-B0C1FDF41B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B0ED0E6-B90B-4326-B0AC-B0C1FDF41B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{CA994513-8D9E-4BAE-8CEA-D2E312510DE8} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
 		{75429F68-061C-4150-B5E2-7C67F8B68DBD} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
 		{644A92F4-63E3-480E-AA91-70CBBAD91B7D} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
+		{AEB81BA8-2E19-49BC-BF86-D0F81CE76AA2} = {E3C7CFB6-C2C0-450A-8803-FEF7BED3FB0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6C60966-6D9C-4FEE-9757-62F9BDFD3B4F}
