@@ -3,7 +3,7 @@ const jwt_decode = require('jwt-decode');
 const jwkToPem = require('jwk-to-pem'),
     jwt = require('jsonwebtoken');
 
-const publicKeysUrl = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_05E5JDNR9/.well-known/jwks.json';
+const publicKeysUrl = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-xxxxx/.well-known/jwks.json';
 let response;
 
 /**
@@ -26,8 +26,8 @@ exports.lambdaHandler = async (event, context) => {
 
         const pem = jwkToPem(jwk);
         const options = {
-            audience: '2gkt10rpuddamt5gpnlmc2j8l4',
-            issuer: 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_05E5JDNR9',
+            audience: '',
+            issuer: 'https://cognito-idp.us-east-2.amazonaws.com/xxxx',
             ignoreExpiration: false
         };
         const decodedToken = jwt.verify(event.authorizationToken, pem, options);
